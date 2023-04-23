@@ -12,4 +12,4 @@ User input: 1 plus 1<br>
 User input: 1 plus 1 + 1 <br>
 User input: one plus one <br>
 Should both print out 2 when entered and the third one should print 3. The forth one should throw an error.
-Add exception for when the numbers are written in words. We are only working with alphanumeric characters for this part. 
+Add exception for when the numbers are written in words. We are only working with alphanumeric characters for this part. <br>
