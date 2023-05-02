@@ -4,7 +4,9 @@
 
 class NumiCalculator():
     from first_fxn import adding0 as a0
+    from first_fxn import subtracting0 as s0
     from second_fxn import adding1 as a1
+    from second_fxn import subtracting1 as s1
     
     def main_adding_fxn():
         expression = input("Please enter your mathematical expression here: ")
@@ -14,6 +16,10 @@ class NumiCalculator():
                 done[0] = int(done[0])
                 done[2] = int(done[2])
                 print(NumiCalculator.a0(done[0], done[2]))
+            elif done[1] == '-' or done[1] == 'Minus' or done[1] == 'minus' or done[1] == 'MINUS':
+                index0 = int(done[0])
+                index1 = int(done[2])
+                print(NumiCalculator.s0(index0, index1))
             else:
                 print("Unidentified Funtion call...\nCheck your expression again please!")
         elif len(done) == 5:
@@ -22,6 +28,11 @@ class NumiCalculator():
                 done[2] = int(done[2])
                 done[4] = int(done[4])
                 print(NumiCalculator.a1(done[0], done[2], done[4]))
+            elif done[1] == '-' or done[1] == 'Minus' or done[1] == "MINUS" or done[1] == 'minus' and done[3] == "-" or done[3] == "minus" or done[3] == "MINUS" or done[3] == "Minus":
+                index0 = int(done[0])
+                index1 = int(done[2])
+                index2 = int(done[4])
+                print(NumiCalculator.s1(index0, index1, index2))
             else:
                 print("Unidentified Function call...\nCheck your expression again please!")
         else:
