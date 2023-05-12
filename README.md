@@ -1,7 +1,7 @@
 This is the start of the python numi clone project  
 Find the original repo here: [Numi Calculator](https://github.com/nikolaeu/numi)
 
-We are going to be building this project from scratch and in parts
+WE all are going to be building this project from scratch and in parts
 
 # PART 1: ADDITION
 ## This is a function that allows the user to do addition in different ways.
